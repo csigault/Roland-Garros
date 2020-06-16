@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC -//W3C//DTD HTML 4.0//EN
+http://www.w3.org/TR/REC-html40/strict.dtd>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/6a9bb1c912.js" crossorigin="anonymous"></script>
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/style.css" />  
+    <title>Enregistrer un résultat</title>
+    <style>
+    </style>
+</head>
+<body class="fd-gris">
+    
+    <!-- Debut Navbar-->
+        <nav class="navbar navbar-expand-lg navbar bg nav-RG sticky-top">
+          <a class="navbar-brand" href="index.html">
+            <img src="../assets/img/Logo_Roland-Garros.svg.png" width="50" height="50" alt="Rolland_Garros">
+          </a>
+
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="joueurs.html">Joueurs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="arbitres.html">Arbitres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="courts.html">Courts</a>
+              </li>
+              
+              <li class="nav-item ">
+                <a class="nav-link" href="planifier.html">Planifier</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Résultats<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="meilleur_joueur_du_monde.html">Meilleur joueur</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+                
+          <div class="float-right">
+                
+            <a><a href="deconnecter.html"><button type="button" class="btn btn-outline-secondary">Se deconnecter</button></a></div>
+          
+              
+              
+          </div>
+        </nav>
+        <!-- Fin Navbar-->
+    
+        <div class="container">
+          <div class="col-lg-8">
+          <div class="row">
+            <h2>Enregistrer les résultats des matchs</h2>
+          </div>
+        </div>
+          <div class="row">
+
+            <!-- Debut 9col -->
+            <div class="col-lg-8">
+            
+            <form>
+              <div class="form-group">
+                <label for="inputMatch">Match</label>
+                <select id="inputMatch" class="form-control">
+                  <option value="SH1" selected>Nadal - Monfils</option>
+                  <option value="SH2">Federer - Djocovi</option>
+                  <option value="SF1">Barty - Williams</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="inputScore1">Score Joueur 1</label>
+                <select id="inputScore1" class="form-control">
+                  <option value="score3" selected>3</option>
+                  <option value="score2">2</option>
+                  <option value="score1">1</option>
+                  <option value="score0">0</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="inputScore2">Score Joueur 2</label>
+                <select id="inputScore2" class="form-control">
+                    <option value="score3" selected>3</option>
+                    <option value="score2">2</option>
+                    <option value="score1">1</option>
+                    <option value="score0">0</option>
+                  </select>
+              </div>
+              <div class="form-group">
+                <label for="Inputtime">Durée</label>
+                <input type="time" class="form-control" value="..:.."id="Inputtime">
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-vert">Enregistrer le score</button>
+            </form>
+
+            </div>
+            <!-- Fin 9col -->
+    
+            <!-- Debut 3col -->
+            <div class="col-lg-4">
+              <ul class="list-group">
+                <li class="list-group-item active">Matchs terminés</li>
+                <li class="list-group-item">Roger Federer 3-1 Gaël Monfils<br>Simple messieurs <br>Arbitre : Carlos Bernardes<br>Court : Philippe Chatrier<br>02 juin 2020 </li>
+              </ul>
+            
+            
+    
+            <!-- Fin 3col -->
+           </div>
+    
+        </div>
+      </div>
+
+        <!--<footer class="footer">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    Test
+                  </div>
+                </div>
+            </div>
+        </footer>-->
+    <!-- Script Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

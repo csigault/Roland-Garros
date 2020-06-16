@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC -//W3C//DTD HTML 4.0//EN
+http://www.w3.org/TR/REC-html40/strict.dtd>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/6a9bb1c912.js" crossorigin="anonymous"></script>
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/style.css" />  
+    <title>Connexion-Rolland Garros</title>
+    <!-- script de Mazen -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!--<script src="../js/bootstrap.js"></script>-->
+    <script src="../js/connexion.js"></script>
+</head>
+<body class="fd-RG">
+    
+    <!-- Debut Navbar-->
+        <nav class="navbar navbar-expand-lg navbar bg nav-RG sticky-top">
+          <a class="navbar-brand" href="#">
+            <img src="../assets/img/Logo_Roland-Garros.svg.png" width="50" height="50" alt="Rolland_Garros">
+          </a>
+        </nav>
+        <!-- Fin Navbar-->
+    
+    <div class="container">
+      <div class="row">
+        <!-- Debut 6col -->
+        <div class="col-lg-6 fd-bl">
+          <h1>Connection</h1>
+          <div class=fd-cartouche-connexion>
+            <!-- Nouveau formulaire de Mazen -->
+            <form action="index.html">
+              <div class="form-group">
+                  <label for="identifiant-form">Identifiant</label>
+                  <input type="text" class="form-control" id="identifiant-form" name="identifiant" required>
+                  <p id="identifiant-form-display-error" class="error"></p>
+              </div>
+              <div class="form-group">
+                  <label for="mot-de-passe-form">Mot de passe</label>
+                  <input type="password" class="form-control" id="mot-de-passe-form" name="mdp" required>
+                  <p id="mot-de-passe-form-display-error" class="error"></p>
+              </div>
+              <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="se-souvenir-form">
+                  <label class="form-check-label" for="se-souvenir-form" name="souvenir">Se souvenir de
+                      moi</label>
+              </div>
+              <div class="form-group">
+                  <button type="submit" id="button-connect" class="btn btn-success btn-vert">Se connecter</button>
+              </div>
+          </form>
+            <!-- Ancien formulaire -->
+            <!--<div class="input-group flex-nowrap">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputName"><i class="far fa-user-circle"></i></span>
+              </div>
+              <input type="text" class="form-control" placeholder="Utilisateur" aria-label="Username" id="inputName2" onkeyup='javascript:isCharSet()'>
+            </div>
+            <div class="input-group flex-nowrap">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputPassword"><i class="fas fa-lock"></i></span>
+              </div>
+              <input type="password" class="form-control" placeholder="Mot de passe" id="inputPassword2" onclick="click1()" onkeyup='javascript:isCharSet()'>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="defaultChecked2" checked>
+              <label class="custom-control-label" for="defaultChecked2">Se souvenir de moi</label>
+            </div>
+            <a href="index.html" class="nounderline"><button type="button" class="btn btn-primary btn-block btn-vert" id="button">Me connecter</button></a>
+          </div>-->
+        
+        </div>
+          
+        <!-- Fin 9col -->
+
+      
+      </div>
+    </div>
+
+    
+    
+        <div id="footer">
+          <p>© Copyright 2020 Rolland Garros.</p>
+        </div>
+     
+    <!-- Script JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+  
+    <!-- Script Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

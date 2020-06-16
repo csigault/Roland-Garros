@@ -1,0 +1,212 @@
+body {
+    background-color: #fff;
+}
+p, .link-bars, .link-icone {color:white;
+}
+a {color:#fff;
+text-decoration: none;}
+a:hover {color:#fff;}
+li.active {font-weight: bold;} 
+h2{margin-top: 2%;margin-bottom: 3%;}
+
+.nounderline {
+    text-decoration: none !important;
+  }
+
+/* couleur vert logo : #00503C ; couleur orange logo : #bd491d; */
+.fd-gris {background-color: #f4f4f4;}
+/* debut New css */
+.fd-RG {
+      /* The image used */
+  background-image: url(../assets/img/connexion.jpg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* fin new css */
+
+/* debut old css */
+/*.fd-RG {background-image: url(../assets/img/connexion.jpg);
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat, repeat-y, no-repeat;    
+        background-position: center center;}*/
+/* fin old css */
+
+/*.footer {display: grid;
+justify-content:left;
+margin-left: 2%;
+font-size: 0.8em;}*/
+
+#footer {
+    margin-left: 2%;
+font-size: 0.8em;
+  position: absolute;
+  left: 0;
+  bottom:0;
+}
+/* Page Connexion */
+.fd-bl {
+    margin:15% auto;
+    border-radius: 7px;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff; border-color:#00503C; background-color:#00503C;
+}
+.btn-vert {    
+    background-color:#00503C;
+    border-color: #00503C;
+}
+.btn-vert:hover, .btn-vert:focus/*, .btn-vert:disabled */{
+box-shadow: none; background-color: #003125;border-color:#003125;}
+.btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    color: 
+#fff;
+background-color: pink !important;
+border-color: pink !important;
+}
+.btn.disabled, .btn:disabled {
+    cursor: not-allowed;
+    opacity: 1;
+    box-shadow: none; background-color: #45524e;border-color:#45524e;
+}
+/* Code Mazen */
+.error {
+    font-size: 0.8rem;
+    text-align: right;
+    color: rgb(246, 109, 109);
+    margin-top: 5px;
+  }
+
+
+/* Debut Navbar */
+.nav-RG {background-color:#e7e7e7 !important; min-height:80px}
+.navbar-expand-lg .navbar-nav .nav-link {color:#00503C !important;}
+a:current {color:#003125;}
+
+.fontlogo {
+    font-size: 1.0em;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.text-exposant {font-size: 0.5em !important;
+    color:#aaa9a9;
+font-weight:700;
+vertical-align: top;}
+
+.btn {border-color:solid 3px #121212 !important;}
+
+.input-group {min-width: auto; margin-bottom: 3%;}
+.btn-outline-secondary {border-color:none !important;}
+.form-control:focus {background-color: #f4f4f4 !important;}
+.btn-outline-secondary-YT {border-color:solid 0px #121212 !important;
+    border-radius: 0px;
+    background-color: #121212;
+    color: #303030;}
+.btn-outline-secondary-YT:hover {background-color: #121212 !important;}
+
+
+.white {color:white;}
+.blanc-casse {color:#d5d5d5;}
+.float-right {
+    display: flex;
+    float:right;
+}
+.nav-link a, .nav-link a:hover {color: white !important;}
+/*.nav-link a:hover {color: white !important;}*/
+
+.border-search {
+    border: solid 1px  #303030 !important;}
+
+
+/* Horloge */
+#idd {
+margin-top :0px;
+margin-right :10px;
+border: solid 1px #f7f7f7 !important;
+padding: 3 10;
+font-size: 0.9em;
+color:#003125;
+background-color: #f7f7f7;
+/*height: 55px;*/
+/*border-radius: 50%;*/
+line-height: 2;
+}
+.btn-deconnecter {margin-top : 0px;}
+/* Fin Navbar */
+
+/* Partie body */
+.container { margin:2% auto;max-width: 940px;}
+
+.les-cards-RG {display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    margin:0px auto;}
+.card-img-top-RG {width: auto; height:170px;}
+.card-RG {width: auto; margin:2% auto;}
+h5.card-title-RG {color:#00503C; }
+p.card-text-RG {color: #1a1a1a;
+font-size:0.8em;}
+.btn-card-RG {display: grid; margin:1% auto; background-color: #bd491d; border-color: #bd491d;}
+.btn-card-RG:hover {background-color: #8e3106; border-color: #8e3106;}
+
+/* 9col */
+
+/* Page meilleur joueur */
+.text-vert {color: #303030;}
+
+/* 3col */
+.list-group-item.active {
+    margin-top: 2%;
+    z-index: 2;
+    color: #fff;
+    background-color:#bd491d;
+    border-color:#bd491d;
+}
+.list-group-item {
+    position: relative;
+    
+    display: block;
+    font-size:0.8em;
+    padding: .50rem 1rem;
+    background-color: #f4f4f4;
+}
+
+.group-vignette {
+    display: grid;
+    grid-template-columns: auto 1fr ;
+    grid-gap: 10px;
+}
+
+.vignette {width: 168px;height:94px;
+    position:relative;
+    background-color: rgb(187, 151, 151);
+background-image: url(../exo-Article-FormulaireV2/photo-1440557653082-e8e186733eeb-1.jpg);
+/*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background-size: cover;
+    background-repeat: no-repeat, repeat-y, no-repeat;    
+    background-position: center center;}
+
+/* Footer */
+
+/*
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #000000;
+    color: #FFFFFF;
+}*/

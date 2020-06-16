@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC -//W3C//DTD HTML 4.0//EN
+http://www.w3.org/TR/REC-html40/strict.dtd>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/6a9bb1c912.js" crossorigin="anonymous"></script>
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/style.css" />  
+    <title>Ajouter joueurs</title>
+    <style>
+    </style>
+</head>
+<body class="fd-gris">
+    
+    <!-- Debut Navbar-->
+        <nav class="navbar navbar-expand-lg navbar bg nav-RG sticky-top">
+          <a class="navbar-brand" href="index.html">
+            <img src="../assets/img/Logo_Roland-Garros.svg.png" width="50" height="50" alt="Rolland_Garros">
+          </a>
+
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="">Joueurs<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="arbitres.html">Arbitres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="courts.html">Courts</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="planifier.html">Planifier</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resultats.html">Résultats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="meilleur_joueur_du_monde.html">Meilleur joueur</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+                
+          <div class="float-right">
+                
+            <a><a href="deconnecter.html"><button type="button" class="btn btn-outline-secondary">Se deconnecter</button></a></div>
+          
+              
+              
+          </div>
+        </nav>
+        <!-- Fin Navbar-->
+    
+        <div class="container">
+          <div class="col-lg-8">
+          <div class="row">
+            <h2>Ajouter des joueurs</h2>
+          </div>
+        </div>
+          <div class="row">
+
+            <!-- Debut 9col -->
+            <div class="col-lg-8">
+            
+            <form>
+              <div class="form-group">
+                <label for="inputName">Nom du joueur</label>
+                <input type="text" class="form-control" id="inputName">
+              </div>
+              <div class="form-group">
+                <label for="inputFirstName">Prénom du joueur</label>
+                <input type="text" class="form-control" id="inputFirstName">
+              </div>
+              <div class="form-group">
+                <label for="inputSexe">Sexe du joueur</label>
+                <select id="inputSexe" class="form-control">
+                  <option value="Homme" selected>Homme</option>
+                  <option value="Femme">Femme</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="inputNationalite">Nationalité du joueur</label>
+                <select id="inputNationalite" class="form-control">
+                  <option value="Française" selected>Française</option>
+                  <option value="Anglaise">Anglaise</option>
+                  <option value="Belge">Belge</option>
+                  <option value="Bielorussie">Bielorussie</option>
+                  <option value="Chilienne">Chilienne</option>
+                  <option value="Espagnole">Espagnole</option>
+                  <option value="Serbe">Serbe</option>
+                  <option value="Suisse">Suisse</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="inputClassement">Classement du joueur</label>
+                <input type="text" class="form-control" id="inputClassement">
+              </div>
+              <!-- <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>-->
+              <button type="submit" class="btn btn-primary btn-vert">Ajouter le joueur</button>
+            </form>
+
+            </div>
+            <!-- Fin 9col -->
+    
+            <!-- Debut 3col -->
+            <div class="col-lg-4">
+              <ul class="list-group">
+                <li class="list-group-item active">Joueurs déjà inscrits</li>
+                <li class="list-group-item">Roger Federer</li>
+                <li class="list-group-item">Rafael Nadal</li>
+                <li class="list-group-item">Ashleigh Barty</li>
+                <li class="list-group-item">Noval Djokovic</li>
+                <li class="list-group-item">Serena Williams</li>
+              </ul>
+            
+            
+    
+            <!-- Fin 3col -->
+           </div>
+    
+        </div>
+
+    <!-- Script Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
